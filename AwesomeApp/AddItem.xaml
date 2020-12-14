@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:forms="clr-namespace:dotMorten.Xamarin.Forms;assembly=dotMorten.Xamarin.Forms.AutoSuggestBox"
+             mc:Ignorable="d"
+             x:Class="AwesomeApp.AddItem">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height=".1*"></RowDefinition>
+                <RowDefinition Height=".1*"></RowDefinition>
+                <RowDefinition Height=".1*"></RowDefinition>
+                <RowDefinition Height=".7*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <forms:AutoSuggestBox x:Name="NameBox"
+                                    Grid.Row="0" Grid.ColumnSpan="8"
+                                  PlaceholderText="Enter food name"
+                                  TextChanged="FoodSearch_TextChanged"
+                                  QuerySubmitted="FoodSearch_QuerySubmitted"
+                                  SuggestionChosen="FoodSearch_SuggestionChosen"></forms:AutoSuggestBox>
+            <Label Text="Qty:" Grid.Row="1" Grid.Column="6"></Label>
+            <Entry x:Name="Quantity" Keyboard="Numeric" Grid.Row="1" Grid.Column="7"></Entry>
+            <DatePicker x:Name="ExpirationDate" Grid.Row="1" Grid.ColumnSpan="6"></DatePicker>
+            <Button Text="Add Item" Pressed="AddItemButton" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="6"></Button>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

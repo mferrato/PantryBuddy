@@ -1,0 +1,9 @@
+/Users/mf0082/Projects/PantryBuddy/AwesomeApp/AwesomeApp/obj/Release/netstandard2.0/PantryBuddy.csprojAssemblyReference.cache
+/Users/mf0082/Projects/PantryBuddy/AwesomeApp/AwesomeApp/obj/Release/netstandard2.0/AddItem.xaml.g.cs
+/Users/mf0082/Projects/PantryBuddy/AwesomeApp/AwesomeApp/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/mf0082/Projects/PantryBuddy/AwesomeApp/AwesomeApp/obj/Release/netstandard2.0/Inventory.xaml.g.cs
+/Users/mf0082/Projects/PantryBuddy/AwesomeApp/AwesomeApp/obj/Release/netstandard2.0/MainPage.xaml.g.cs
+/Users/mf0082/Projects/PantryBuddy/AwesomeApp/AwesomeApp/obj/Release/netstandard2.0/Recipes.xaml.g.cs
+/Users/mf0082/Projects/PantryBuddy/AwesomeApp/AwesomeApp/obj/Release/netstandard2.0/PantryBuddy.AssemblyInfoInputs.cache
+/Users/mf0082/Projects/PantryBuddy/AwesomeApp/AwesomeApp/obj/Release/netstandard2.0/PantryBuddy.AssemblyInfo.cs
+/Users/mf0082/Projects/PantryBuddy/AwesomeApp/AwesomeApp/obj/Release/netstandard2.0/PantryBuddy.csproj.CoreCompileInputs.cache

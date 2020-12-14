@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AwesomeApp.MainPage"
+             BackgroundColor="#006F46">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".1*"></RowDefinition>
+            <RowDefinition Height=".2*"></RowDefinition>
+            <RowDefinition Height=".2*"></RowDefinition>
+            <RowDefinition Height=".45*"></RowDefinition>
+            <RowDefinition Height=".05*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!--Label Grid.Row="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" FontSize="Title" Text="Pantry Buddy"></-->
+        <!--Image Grid.Row="0" Grid.ColumnSpan="2" Source="Pantry-Buddy-Logo.png"></-->
+
+        <Image Grid.Row="0" Grid.ColumnSpan="2" Source="https://cpb-us-w2.wpmucdn.com/sites.udel.edu/dist/6/11129/files/2020/12/cropped-Pantry-Buddy-Logo-1536x291.png"></Image>
+
+        <ImageButton Grid.Row="1" Grid.Column="0" Source="https://i.postimg.cc/66f5Hsdt/imagebutton.png" Clicked="Navigate_To_Inventory"></ImageButton>
+        <ImageButton Grid.Row="1" Grid.Column="1" Source="https://i.postimg.cc/phCz6Tbq/Untitled-1.png" Clicked="Navigate_To_AddItem"></ImageButton>
+        <ImageButton Grid.Row="2" Grid.Column="0" Source="https://i.postimg.cc/xkKKL5sr/recipes.png" Clicked="Navigate_To_Recipes"></ImageButton>
+        <ImageButton Grid.Row="2" Grid.Column="1" Source="https://i.postimg.cc/CBSb78tR/settings.png"></ImageButton>
+
+        <!--ScrollView Grid.Row="3" Grid.ColumnSpan="2" x:Name="Notifications" Scrolled="Notification_Scroll_Handler">
+            <StackLayout x:Name="NotificationsList">
+
+            </StackLayout>
+        </>
+        <Label x:Name="NotifcationScrollIndicator"
+               Grid.Row="4"
+               Grid.ColumnSpan="2"
+               Text="Scroll for earlier notifications"
+               BackgroundColor="Black"
+               TextColor="White"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="End"/-->
+
+
+    </Grid>
+
+</ContentPage>
